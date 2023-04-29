@@ -1,8 +1,9 @@
-PHP 8.2 y postgres
-DOCKER COMPOSE PARA EJECUTAR PROYECTOS LARAVEL:
+# PHP 8.2 y Postgresql
+
+## DOCKER COMPOSE PARA EJECUTAR PROYECTOS LARAVEL:
 ===============================================
 
-**POR: STEVE PIÑERO**
+### POR: STEVE PIÑERO
 
 Pasos para ejecutar:
 
