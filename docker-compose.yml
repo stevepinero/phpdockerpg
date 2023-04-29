@@ -5,7 +5,7 @@ version: "3.1"
 services:
 
     postgres:
-      image: postgres:11.1-alpine
+      image: postgres:15.2-alpine
       container_name: proyecto-postgres
       working_dir: /application
       volumes:
@@ -33,5 +33,5 @@ services:
       working_dir: /application
       volumes:
         - .:/application
-        - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
+        - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/8.2/fpm/conf.d/99-overrides.ini
 
