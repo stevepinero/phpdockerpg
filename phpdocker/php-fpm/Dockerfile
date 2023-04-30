@@ -18,6 +18,7 @@ RUN apt-get update; \
         php8.2-bz2 \ 
         php8.2-gd \ 
         php8.2-mysql \ 
+        php8.2-pgsql \ 
         php8.2-uuid \ 
         php8.2-xdebug \
         php8.2-xmlrpc \
